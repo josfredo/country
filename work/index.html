@@ -34,7 +34,7 @@
       list-style-type: none;
       }
       a {
-      font-size: min(3.5vw,15px);
+      font-size: 16px;
       color: #dbdbdb; /* Set the link color */
       text-decoration: none; /* Remove underline */
       text-overflow: clip;
@@ -78,8 +78,6 @@
       }
       #winTitle {
       font-size: 120%;
-      font-weight: bold;
-      font-style: italic;
       border-bottom: 1px #aaaaaa;
       color: #fff;
       padding-left: 3px;
@@ -88,8 +86,11 @@
       }
       .winBody {
       background-color: #000;
-      padding: 2px;
-      line-height: 18px;
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      line-height: 21px;
       }
       .title {
       font-size: min(4.5vw,17px);
@@ -98,45 +99,17 @@
       background-color: #ff0000;
       border-bottom: 1px #aaaaaa;
       color: #fff;
-      padding-left: 3px;
+      padding-left: 6px;
       font-family: "times new roman", serif;
       }  
     </style>
   </head>
   <body>
     <br>
-    <div style="text-align:center"><span id="winTitle"><em>For the benefit of others</em></span></div>
+    <div style="text-align:center"><span id="winTitle">country</span></div>
     <div id="main">
       <div id="mainBody">
-        <div id="col2">
-          <div class="win">
-            <div class="title" data-bs-toggle="collapse" data-bs-target="#filmography" role="button">Filmography</div>
-            <div class="winBody collapse show" id="filmography">
-              <ul>
-                <li> <a href="">Toda la basura está en el Perú</a>
-                </li>
-                <li> <a href="">Jihad</a>
-                </li>
-                <li> <a href="">Munchausen/Utrech</a>
-                </li>
-                <li> <a href="">ISONA 1000</a>
-                </li>
-                <li> <a href="">Faux Pas</a>
-                </li>
-                <li> <a href="">Una bomba</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="win">
-            <div class="title" data-bs-toggle="collapse" data-bs-target="#photography" role="button">Photography</div>
-            <div class="winBody collapse show" id="photography">
-              <ul>
-                <li> <a href="../SoloExhibition20.pdf">Solo Exhibition '20</a>
-                </li>
-              </ul>
-            </div>
-          </div>
+        <div id="col1">
           <div class="win">
             <div class="title" data-bs-toggle="collapse" data-bs-target="#discography" role="button">Discography</div>
             <div class="winBody collapse show" id="discography">
@@ -162,6 +135,8 @@
               </ul>
             </div>
           </div>
+        </div>
+          <div class="col2"></div>
           <div class="win">
             <div class="title" data-bs-toggle="collapse" data-bs-target="#bib-en" role="button">Bibliography</div>
             <div class="winBody collapse show" id="bib-en">
@@ -178,14 +153,5 @@
         </div>
       </div>
     </div>
-    <script>
-      $(function() {
-      $('#filmography').removeClass('show');
-      $('#photography').removeClass('show');
-      $('#discography').removeClass('show');
-      $('#bib-en').removeClass('show');
-      $('#bib-es').removeClass('show');
-      });
-    </script>
   </body>
 </html>
