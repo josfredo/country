@@ -29,6 +29,12 @@
   font-size: 19px;
 }
 
+.menu {
+  font-size: 19px;
+  color: #dbdbdb;
+}
+
+
 /* Text deco
    
   j="rage", main page 
@@ -389,6 +395,7 @@ summary::-webkit-details-marker {
   font-weight: 100;
   margin-left: 27.1%;
   margin-right: 27.1%;
+  text-align: justify;
 }
 
 @media only screen and (max-width: 600px) {
