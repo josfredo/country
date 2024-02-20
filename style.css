@@ -154,14 +154,22 @@ a:any-link {
 
 .m {
   text-decoration: none;
-  color: #191ddd;
+  color: #ff0000;
   font-size: 18px;
   font-family: "times new roman", sans-serif;
   font-weight: 100;
 }
 
 .m:hover {
-  color: #822fa1;
+  color: #4aff00;
+}
+
+.adm {
+  text-decoration: none;
+  color: #dbdbdb;
+  font-size: 18px;
+  font-family: "times new roman", sans-serif;
+  font-weight: 100;
 }
 
 .c {
