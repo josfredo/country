@@ -166,16 +166,13 @@ summary::-webkit-details-marker {
     margin-right: 0%;
   }
 
-  .d_margin {
-    width: 100%;
-    margin-left: 4%;
-    margin-right: 4%;
-  }
-
   hr {
     margin-left: 0% !important;
     margin-right: 0% !important;
   }
+
+  .cover {
+    block-size: 340px;
 }
 
 .ind ul {
