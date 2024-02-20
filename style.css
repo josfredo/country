@@ -18,11 +18,6 @@
   text-align: center;
 }
 
-.galardica {
-  font-weight: bold;
-  font-size: 23px;
-}
-
 .strong {
   font-weight: bold;
 }
@@ -39,139 +34,34 @@
   font-size: 19px;
 }
 
+.red {
+  color: #ff0000;
+}
+
 .menu {
   font-size: 19px;
   color: #dbdbdb;
 }
 
-/* Text deco
-   
-  j="rage", main page 
-  h="Índice button", acuerdos
-   ="acuerdos", main page
-  m="actual index items", acuerdos 
-
-*/
-
-.g {
-  text-decoration: none;
-  color: #ff0000;
+.pagestart {
+  padding-top: 75px;
+  max-width: 100%;
   font-size: 18px;
   font-family: "times new roman", sans-serif;
-  font-weight: 100;
-}
-
-.g:hover {
-  color: #4aff00;
-}
-
-.expreglosa {
   color: #dbdbdb;
-  font-size: 18px;
-}
-
-.polidelia {
-  color: #000;
-  font-size: 18px;
-}
-
-.n {
-  text-decoration: none;
-  color: #9946c3;
-  font-size: 18px;
-  font-family: "times new roman", sans-serif;
   font-weight: 100;
+  margin-left: 27.1%;
+  margin-right: 27.1%;
 }
 
-.n:hover {
-  color: #4aff00;
+.short_story {
+  max-width: 100%;
+  margin-left: 27.1%;
+  margin-right: 27.1%;
+  text-align: justify;
 }
 
-.o {
-  text-decoration: none;
-  color: #2529f7;
-  font-size: 17px;
-  font-family: "times new roman", sans-serif;
-  font-weight: 100;
-}
-
-.o:hover {
-  color: #862e99;
-}
-
-.hmain {
-  text-decoration: none;
-  color: #2529f7;
-  font-size: 18px;
-  font-family: "times new roman", sans-serif;
-  font-weight: 100;
-}
-
-.hmain:hover {
-  color: #862e99;
-}
-
-.j {
-  text-decoration: none;
-  color: #65ac48;
-  font-size: 18px;
-  font-family: "times new roman", sans-serif;
-  font-weight: 100;
-}
-
-.j:hover {
-  color: #4aff00;
-}
-
-.k {
-  text-decoration: none;
-  color: #e8f238;
-  font-size: 18px;
-  font-family: "times new roman", sans-serif;
-  font-weight: 100;
-}
-
-.k:hover {
-  color: #4aff00;
-}
-
-.red {
-  color: #ff0000;
-}
-
-.back {
-  font-size: 17px;
-}
-
-.m:hover {
-  color: #4aff00;
-}
-
-.c {
-  text-decoration: none;
-  color: #ff0000;
-  font-size: 18px;
-  font-family: "times new roman", sans-serif;
-  font-weight: 100;
-}
-
-.c:hover {
-  color: #4aff00;
-}
-
-.ra {
-  color: #000;
-}
-
-.z {
-  font-size: 19px;
-}
-
-strong {
-  font-size: 23px;
-}
-
-/* Body: white, black, rage */
+/* Bodies (I'm not an animal): white, black */
 
 .white {
   background-color: #dbdbdb;
@@ -179,17 +69,6 @@ strong {
 
 .black {
   background-color: #000000;
-}
-
-.rage {
-  background-color: #B7AD92;
-}
-
-/* Misc */
-
-.unclickable {
-  pointer-events: none;
-  /* Disable pointer events */
 }
 
 ul.list {
@@ -204,16 +83,6 @@ img {
   margin-left: 16px;
   display: block;
   max-width: 100%;
-}
-
-.lost {
-  display: flex;
-  justify-content: center;
-  margin-top: -3px;
-  font-size: 15px;
-  font-family: "arial", sans-serif;
-  font-style: italic;
-  font-weight: bold;
 }
 
 /* Bars: white, black */
@@ -244,20 +113,6 @@ img {
   -webkit-backdrop-filter: blur(6px);
 }
 
-.otp {
-  padding: 16px 0;
-  border-bottom: 1px solid #3e623b;
-  display: flex;
-  position: fixed;
-  width: 46%;
-  margin-left: 27%;
-  margin-right: 27%;
-  top: 0;
-  z-index: 1;
-  background-color: #3e623b;
-  height: 43px;
-}
-
 .block {
   position: absolute;
   margin-top: 11px;
@@ -266,134 +121,17 @@ img {
   right: 20px;
 }
 
-.baptism {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 75px;
-  block-size: 375px;
-  writing-mode: vertical-rl;
-}
-
 summary::-webkit-details-marker {
   display: none;
 }
 
-/* /found */
-
-.connect1 {
-  margin: 20px;
-  margin-left: 20px;
-  margin-top: 20px;
-  float: left;
-}
-
-.connect2 {
-  margin-left: 0px;
-  margin-top: 20px;
-  float: left;
-}
-
-.info {
-  color: #424242;
-  position: absolute;
-  margin-top: 534px;
-  margin-left: 803px;
-}
-
-.textselect {
-  user-select: text;
-}
-
-/* /found */
-
-.ascension {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  block-size: 305px;
-  writing-mode: vertical-rl;
-}
-
-/* My eternal */
-
-.country {
-  padding-top: 101px;
-  max-width: 100%;
-  font-size: 18px;
-  font-family: "times new roman", sans-serif;
-  color: #dbdbdb;
-  font-weight: 100;
-  margin-left: 32.3%;
-  margin-right: 32.3%;
-}
-
-/* Protocols */
-
-.start {
-  padding-top: 101px;
-  max-width: 100%;
-  font-size: 18px;
-  font-family: "times new roman", sans-serif;
-  color: #000;
-  font-weight: 100;
-  margin-left: 27.1%;
-  margin-right: 27.1%;
-}
-
-.protocol {
-  max-width: 100%;
-  font-size: 18px;
-  font-family: "times new roman", sans-serif;
-  color: #000;
-  font-weight: 100;
-  margin-left: 27.1%;
-  margin-right: 27.1%;
-}
-
-.tunnel {
-  color: #000;
-}
-
-.tunnel:hover {
-  color: #424242;
-}
-
-.pagestart {
-  padding-top: 75px;
-  max-width: 100%;
-  font-size: 18px;
-  font-family: "times new roman", sans-serif;
-  color: #dbdbdb;
-  font-weight: 100;
-  margin-left: 27.1%;
-  margin-right: 27.1%;
-}
-
-.short_story {
-  max-width: 100%;
-  margin-left: 27.1%;
-  margin-right: 27.1%;
-  text-align: justify;
-}
-
 @media only screen and (max-width: 600px) {
-  .country {
+  .short_story {
     margin-left: 4%;
     margin-right: 4%;
   }
 
-  .start {
-    margin-left: 4%;
-    margin-right: 4%;
-  }
-
-  .protocol {
-    margin-left: 4%;
-    margin-right: 4%;
-  }
-
-  .skyqueen {
+  .pagestart {
     margin-left: 4%;
     margin-right: 4%;
   }
@@ -405,12 +143,6 @@ summary::-webkit-details-marker {
   }
 
   .pot {
-    width: 100%;
-    margin-left: 0%;
-    margin-right: 0%;
-  }
-
-  .otp {
     width: 100%;
     margin-left: 0%;
     margin-right: 0%;
@@ -430,20 +162,6 @@ summary::-webkit-details-marker {
 ul {
   list-style-type: none;
   /* This removes the default bullet points */
-}
-
-.yankee {
-  padding: 0;
-}
-
-.foxtrot {
-  margin-left: 27.1%;
-  margin-right: 27.1%;
-}
-
-.ursula {
-
-  list-style-type: initial;
 }
 
 hr {
@@ -549,24 +267,4 @@ hr {
   background-color: rgb(176, 176, 176);
 }
 
-/* Credits */
-
-.sushi {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  block-size: 310px;
-  writing-mode: vertical-rl;
-}
-
-/* My beautiful blue sky */
-
-.mybeautifulbluesky {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  block-size: 289px;
-  writing-mode: vertical-rl;
-}
-
-/* Cracky es catarsis https: //cracky-chan.com/ */
+/* Cracky is gone https: //cracky-chan.com/ */
