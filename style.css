@@ -85,6 +85,9 @@ img {
   max-width: 100%;
 }
 
+cover {
+}
+
 /* Bars: white, black */
 
 .top {
@@ -265,6 +268,12 @@ hr {
 
 .shane {
   background-color: rgb(176, 176, 176);
+}
+
+.cover {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Cracky is gone https: //cracky-chan.com/ */
