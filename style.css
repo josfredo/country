@@ -166,10 +166,10 @@ summary::-webkit-details-marker {
     margin-right: 0%;
   }
 
-  .pot_blurless {
+  .d_margin {
     width: 100%;
-    margin-left: 0%;
-    margin-right: 0%;
+    margin-left: 4%;
+    margin-right: 4%;
   }
 
   hr {
@@ -260,35 +260,8 @@ hr {
   padding-right: 4px;
 }
 
-/* Excel is online */
-
-.excel-grid {
-  display: table;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-.excel-row {
-  display: table-row;
-}
-
-.excel-cell {
-  display: table-cell;
-  border: 1px solid #000;
-  padding-right: 2px;
-  padding-left: 5px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  min-width: 100px;
-  vertical-align: top;
-}
-
-.excel-cell:nth-child(1) {
-  width: 10%;
-}
-
-.shane {
-  background-color: rgb(176, 176, 176);
+.unscroll {
+  overflow: hidden;
 }
 
 .cover {
