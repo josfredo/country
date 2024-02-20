@@ -34,6 +34,9 @@
   color: #dbdbdb;
 }
 
+.db {
+  color: #dbdbdb;
+}
 
 /* Text deco
    
@@ -385,7 +388,7 @@ summary::-webkit-details-marker {
 }
 
 .sqstart {
-  padding-top: 101px;
+  padding-top: 75px;
   max-width: 100%;
   font-size: 18px;
   font-family: "times new roman", sans-serif;
