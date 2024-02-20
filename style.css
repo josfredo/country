@@ -171,6 +171,15 @@ summary::-webkit-details-marker {
     margin-right: 0% !important;
   }
 
+  iframe {
+    width: 343px !important;
+  }
+
+  .cover {
+    width: 343px !important;
+    height: 343px !important;
+  }
+
 }
 
 .ind ul {
@@ -265,6 +274,8 @@ hr {
   margin-left: auto;
   margin-right: auto;
   border-bottom: 1px solid #505050;
+  width: 350px;
+  height: 350px;
 }
 
 /* Cracky is gone https: //cracky-chan.com/ */
