@@ -136,7 +136,7 @@ cover {
   margin-top: 11px;
   display: flex;
   text-indent: 17px;
-  right: 20px;
+  right: 14px;
 }
 
 summary::-webkit-details-marker {
@@ -170,6 +170,7 @@ summary::-webkit-details-marker {
     margin-left: 0% !important;
     margin-right: 0% !important;
   }
+
 }
 
 .ind ul {
