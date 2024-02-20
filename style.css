@@ -6,7 +6,7 @@
 * {
   margin: 0;
   user-select: none;
-  scroll-padding-top: 94px;
+  scroll-padding-top: 97px;
   resize: none;
   color: #dbdbdb;
   font-size: 18px;
@@ -25,6 +25,10 @@
 
 .strong {
   font-weight: bold;
+}
+
+.list-height {
+  line-height: 1.5;
 }
 
 .title {
@@ -48,10 +52,6 @@
   m="actual index items", acuerdos 
 
 */
-
-a:any-link {
-  text-align: center;
-}
 
 .g {
   text-decoration: none;
@@ -447,7 +447,7 @@ ul {
 }
 
 hr {
-  background-color: black;
+  background-color: #dbdbdb;
   height: 1px;
   border: none;
   margin-left: 26%;
@@ -455,27 +455,13 @@ hr {
 }
 
 .hrup {
+  background-color: #dbdbdb;
   margin-bottom: 12px;
 }
 
 .hrdo {
+  background-color: #dbdbdb;
   margin-top: 12px;
-}
-
-.hrsky {
-  background-color: #dbdbdb;
-  height: 1px;
-  border: none;
-}
-
-.hrupsky {
-  background-color: #dbdbdb;
-  margin-bottom: 11px;
-}
-
-.hrdosky {
-  background-color: #dbdbdb;
-  margin-top: 11px;
 }
 
 .half {
