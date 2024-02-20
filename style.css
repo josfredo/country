@@ -5,10 +5,13 @@
 
 * {
   margin: 0;
-  cursor: default;
   user-select: none;
   scroll-padding-top: 94px;
   resize: none;
+  color: #dbdbdb;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: "times new roman", sans-serif;
 }
 
 .center {
@@ -22,19 +25,18 @@
 
 .strong {
   font-weight: bold;
+}
+
+.title {
   font-size: 22px;
 }
 
-.sub {
+.subtitle {
   font-size: 19px;
 }
 
 .menu {
   font-size: 19px;
-  color: #dbdbdb;
-}
-
-.db {
   color: #dbdbdb;
 }
 
@@ -46,16 +48,6 @@
   m="actual index items", acuerdos 
 
 */
-
-a {
-  text-decoration: none;
-  justify-content: center;
-  color: #fb60ff;
-}
-
-a:hover {
-  color: #ff0000;
-}
 
 a:any-link {
   text-align: center;
@@ -93,18 +85,6 @@ a:any-link {
 
 .n:hover {
   color: #4aff00;
-}
-
-.h {
-  text-decoration: none;
-  color: #2529f7;
-  font-size: 18px;
-  font-family: "times new roman", sans-serif;
-  font-weight: 100;
-}
-
-.h:hover {
-  color: #862e99;
 }
 
 .o {
@@ -155,24 +135,16 @@ a:any-link {
   color: #4aff00;
 }
 
-.m {
-  text-decoration: none;
+.red {
   color: #ff0000;
-  font-size: 18px;
-  font-family: "times new roman", sans-serif;
-  font-weight: 100;
+}
+
+.back {
+  font-size: 17px;
 }
 
 .m:hover {
   color: #4aff00;
-}
-
-.adm {
-  text-decoration: none;
-  color: #dbdbdb;
-  font-size: 18px;
-  font-family: "times new roman", sans-serif;
-  font-weight: 100;
 }
 
 .c {
@@ -387,7 +359,7 @@ summary::-webkit-details-marker {
   color: #424242;
 }
 
-.sqstart {
+.pagestart {
   padding-top: 75px;
   max-width: 100%;
   font-size: 18px;
@@ -398,12 +370,8 @@ summary::-webkit-details-marker {
   margin-right: 27.1%;
 }
 
-.skyqueen {
+.short_story {
   max-width: 100%;
-  font-size: 18px;
-  font-family: "times new roman", sans-serif;
-  color: #dbdbdb;
-  font-weight: 100;
   margin-left: 27.1%;
   margin-right: 27.1%;
   text-align: justify;
@@ -452,10 +420,6 @@ summary::-webkit-details-marker {
     margin-left: 0% !important;
     margin-right: 0% !important;
   }
-}
-
-.ind {
-  text-align: center;
 }
 
 .ind ul {
