@@ -1,0 +1,29 @@
+* {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff0000;
+}
+
+.text {
+  font-size: 17px;
+}
+
+.gold {
+  color: #aaa191;
+}
+
+body > *:not(hr) {
+  max-width: 48%;
+  margin-left: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .text {
+    font-size: 18px;
+  }
+  body > *:not(hr) {
+    max-width: 100%;
+  }
+}
