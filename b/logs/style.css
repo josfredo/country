@@ -1,6 +1,11 @@
 * {
   text-decoration: none;
 }
+
+a:hover {
+  color: #ff0000;
+}
+
 .text {
   font-size: 17px;
 }
