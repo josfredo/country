@@ -330,10 +330,16 @@ li {
   width: 100%;
 }
 
-.win {
+.win_red {
   margin: 3px;
   margin-bottom: 7px;
   border: 1px solid #ff0000;
+}
+
+.win_gold {
+  margin: 3px;
+  margin-bottom: 7px;
+  border: 1px solid #aaa191;
 }
 
 .countryTitle {
