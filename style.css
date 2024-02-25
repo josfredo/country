@@ -276,16 +276,20 @@ li {
   /* Other list item styles */
   position: relative; /* Necessary for positioning the anchor tag */
 }
+
 li a {
   display: block; /* Makes the anchor tags take up the full width */
 }
+
 body {
   background: #000;
   max-width: 100%;
 }
+
 li:hover {
   background-color: #191ddd;
 }
+
 ul {
   margin: 0;
   padding: 0;
@@ -293,6 +297,7 @@ ul {
 li {
   list-style-type: none;
 }
+
 .item {
   font-size: 17px;
   color: #dbdbdb; /* Set the link color */
@@ -314,6 +319,7 @@ li {
   width: 100%;
   justify-content: center;
 }
+
 .col_country {
   max-width: 270px;
   width: 50%;
@@ -321,13 +327,15 @@ li {
 
 .col_admin {
   max-width: 162px;
-  width: 33%;
+  width: 100%;
 }
+
 .win {
   margin: 3px;
   margin-bottom: 7px;
   border: 1px solid #ff0000;
 }
+
 .countryTitle {
   font-size: 19px;
   border-bottom: 1px #aaaaaa;
@@ -336,6 +344,7 @@ li {
   text-align: center;
   font-family: "times new roman", serif;
 }
+
 .countryBody {
   background-color: #000;
   padding-left: 5px;
@@ -344,6 +353,7 @@ li {
   padding-bottom: 2px;
   line-height: 24px;
 }
+
 .adminBody {
   background-color: #000;
   padding-left: 5px;
@@ -352,17 +362,19 @@ li {
   padding-bottom: 1px;
   line-height: 24px;
 }
+
 .title_special {
-  font-size: 17px;
-  font-weight: bold;
-  font-style: italic;
-  color: #ff0000;
-  border-bottom: 1px #aaaaaa;
-  padding-left: 6px;
-  padding-top: 2px;
-  padding-bottom: 1px;
-  font-family: "times new roman", serif;
-  line-height: 22px;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: italic;
+    color: #000000;
+    border-bottom: 1px solid #aaa191;
+    padding-left: 6px;
+    padding-top: 2px;
+    padding-bottom: 1px;
+    font-family: "times new roman", serif;
+    line-height: 22px;
+    background-color: #aaa191;
 }
 
 
