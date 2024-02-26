@@ -1,12 +1,8 @@
-* {
-  text-decoration: none;
-}
-
-a:hover {
+a.back:hover {
   color: #ff0000;
 }
 
-.text {
+.log {
   font-size: 17px;
 }
 
@@ -14,16 +10,16 @@ a:hover {
   color: #aaa191;
 }
 
-body > *:not(hr) {
+.no_hr > *:not(hr) {
   max-width: 48%;
   margin-left: 0 auto;
 }
 
 @media only screen and (max-width: 600px) {
-  .text {
+  .log {
     font-size: 18px;
   }
-  body > *:not(hr) {
+  .no_hr > *:not(hr) {
     max-width: 100%;
   }
 }

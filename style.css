@@ -29,21 +29,16 @@
   font-size: 22px;
 }
 
-.subtitle {
+.subt {
   font-size: 19px;
+}
+
+.log {
+  font-size: 17px;
 }
 
 .red {
   color: #ff0000;
-}
-
-.back {
-  font-size: 17px;
-}
-
-.menu {
-  font-size: 19px;
-  color: #dbdbdb;
 }
 
 .pagestart {
