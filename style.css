@@ -351,6 +351,10 @@ li {
   line-height: 24px;
 }
 
+.nocurs {
+  cursor: default;
+}
+
 .title_special {
     font-size: 17px;
     font-weight: bold;
