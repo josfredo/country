@@ -64,12 +64,6 @@
   text-align: justify;
 }
 
-/* Bodies (I'm not an animal): white, black */
-
-.white {
-  background-color: #dbdbdb;
-}
-
 .black {
   background-color: #000000;
 }
@@ -88,32 +82,15 @@ img {
   max-width: 100%;
 }
 
-/* Bars: white, black */
-
-.top {
-  padding: 16px 0 16px 0;
-  border-bottom: 1px solid #000000;
-  display: flex;
-  position: fixed;
-  width: 48%;
-  margin-left: 26%;
-  margin-right: 26%;
-  top: 0;
-  z-index: 1;
-  -webkit-backdrop-filter: blur(6px);
-  backdrop-filter: blur(6px);
-}
-
 .pot {
-  padding: 16px 0 16px 0;
+  position: fixed;
+  padding-top: 16px;
+  padding-bottom: 16px;
   border-bottom: 1px solid #dbdbdb;
   display: flex;
-  position: fixed;
   width: 48%;
   margin-left: 26%;
   margin-right: 26%;
-  top: 0;
-  z-index: 1;
   -webkit-backdrop-filter: blur(6px);
   backdrop-filter: blur(6px);
 }
