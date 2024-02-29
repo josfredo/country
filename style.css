@@ -53,7 +53,7 @@
 }
 
 .leveler {
-  margin-top: 53px;
+  margin-top: 54px;
 }
 
 
@@ -91,6 +91,8 @@ img {
   width: 48%;
   margin-left: 26%;
   margin-right: 26%;
+  top: 0;
+  z-index: 1;
   -webkit-backdrop-filter: blur(6px);
   backdrop-filter: blur(6px);
 }
