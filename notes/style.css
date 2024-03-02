@@ -2,6 +2,10 @@
   text-decoration: none;
 }
 
+table {
+  margin-top: -41px;
+}
+
 code {
   font-size: 15px;
 }
