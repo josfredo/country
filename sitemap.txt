@@ -1,5 +1,7 @@
 ﻿https://lricountry.com/
-https://lricountry.com/admin/
+https://lricountry.com/a/
+https://lricountry.com/logs/
+https://lricountry.com/notes/
 https://lricountry.com/d/all/
 https://lricountry.com/d/tonight-krimson-jones/
 https://lricountry.com/d/fine-america/
@@ -20,10 +22,10 @@ https://lricountry.com/d/htbathwr/
 https://lricountry.com/d/the-human-plant/
 https://lricountry.com/d/unisex-bathrooms/
 https://lricountry.com/d/unsorted/
-https://lricountry.com/b/diary/
+https://lricountry.com/b/all/
 https://lricountry.com/b/things-you-should-ignore/
 https://lricountry.com/b/lluvia-olivia/
 https://lricountry.com/b/wefoahya/
-https://lricountry.com/b/proto-country/
+https://lricountry.com/b/deconstruccion-de-valores/
 https://lricountry.com/b/tales-tatcher/
 https://lricountry.com/b/unsorted/

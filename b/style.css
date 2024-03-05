@@ -1,0 +1,352 @@
+﻿* {
+  margin: 0;
+  user-select: none;
+  scroll-padding-top: 97px;
+  resize: none;
+  color: #dbdbdb;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: "times new roman", sans-serif;
+}
+
+.marginless {
+  margin-top: -49px;
+}
+
+.center {
+  text-align: center;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+.list-height {
+  line-height: 1.5;
+}
+
+.title {
+  font-size: 22px;
+}
+
+.subt {
+  font-size: 19px;
+}
+
+.log {
+  font-size: 17px;
+}
+
+.red {
+  color: #ff0000;
+}
+
+.pagestart {
+  padding-top: 75px;
+  max-width: 100%;
+  font-size: 18px;
+  font-family: "times new roman", sans-serif;
+  color: #dbdbdb;
+  font-weight: 100;
+  margin-left: 27.1%;
+  margin-right: 27.1%;
+}
+
+.leveler {
+  margin-top: 54px;
+}
+
+
+.short_story {
+  max-width: 100%;
+  margin-left: 27.1%;
+  margin-right: 27.1%;
+  text-align: justify;
+}
+
+.black {
+  background-color: #000000;
+}
+
+ul.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  list-style-type: none;
+  margin-bottom: 16px;
+}
+
+img {
+  margin-left: 16px;
+  display: block;
+  max-width: 100%;
+}
+
+.pot {
+  position: fixed;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #dbdbdb;
+  display: flex;
+  width: 48%;
+  margin-left: 26%;
+  margin-right: 26%;
+  top: 0;
+  z-index: 1;
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+}
+
+.block {
+  position: absolute;
+  margin-top: 11px;
+  display: flex;
+  text-indent: 17px;
+  right: 14px;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .short_story {
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+
+  .pagestart {
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+
+  .top {
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .pot {
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  hr {
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+  }
+
+  iframe {
+    width: 343px !important;
+  }
+
+  .cover {
+    width: 343px !important;
+    height: 343px !important;
+  }
+
+}
+
+.ind ul {
+  display: inline-block;
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+  /* This removes the default bullet points */
+}
+
+hr {
+  background-color: #dbdbdb;
+  height: 1px;
+  border: none;
+  margin-left: 26%;
+  margin-right: 26%;
+}
+
+.hrup {
+  background-color: #dbdbdb;
+  margin-bottom: 12px;
+}
+
+.hrdo {
+  background-color: #dbdbdb;
+  margin-top: 12px;
+}
+
+.half {
+  width: 50%;
+}
+
+.rounder {
+  border: 1px solid #000;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-bottom: 2px;
+  margin-left: 3.2%;
+  margin-right: 3.2%;
+}
+
+/* Send */
+
+.form-container {
+  display: block;
+  flex-wrap: wrap;
+  margin: 23px auto;
+  width: 305px;
+  justify-content: center;
+}
+
+.tisti3 {
+  display: block;
+  margin-top: 11px;
+  height: 51px;
+  font-family: "times new roman", serif;
+  font-size: 15px;
+  width: 100%;
+  max-width: calc(100% - 10px);
+  border: 1px solid grey;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.submit-btn {
+  font-family: "times new roman", serif;
+  color: #dbdbdb;
+  font-size: 14px;
+  height: 24px;
+  max-width: 100%;
+  width: 100%;
+  background-color: red;
+  justify-content: center;
+  cursor: pointer;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+  border-left: 1px solid #dbdbdb;
+  border-top: 1px solid #dbdbdb;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.unscroll {
+  overflow: hidden;
+}
+
+.cover {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #505050;
+  width: 350px;
+  height: 350px;
+}
+
+/* country */
+
+li {
+  /* Other list item styles */
+  position: relative; /* Necessary for positioning the anchor tag */
+}
+
+li a {
+  display: block; /* Makes the anchor tags take up the full width */
+}
+
+body {
+  background: #000;
+  max-width: 100%;
+}
+
+li:hover {
+  background-color: #dbdbdb;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+
+.item {
+  font-size: 17px;
+  color: #dbdbdb; /* Set the link color */
+  text-decoration: none; /* Remove underline */
+  font-family: "times new roman", serif;
+  white-space: nowrap;
+  overflow: hidden;
+}
+/* Define styles for hovered links */
+.item:hover {
+  color: #000;
+  text-decoration: none; /* Add underline on hover */
+}
+
+#mainBody {
+  position: relative;
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.col_country {
+  max-width: 270px;
+  width: 50%;
+}
+
+.col_admin {
+  max-width: 162px;
+  width: 100%;
+}
+
+.win_red {
+  margin: 3px;
+  margin-bottom: 7px;
+  border: 1px solid #ff0000;
+}
+
+.win_gold {
+  margin: 3px;
+  margin-bottom: 7px;
+  border: 1px solid #aaa191;
+}
+
+.countryTitle {
+  font-size: 19px;
+  border-bottom: 1px #aaaaaa;
+  color: #fff;
+  padding-left: 3px;
+  text-align: center;
+  font-family: "times new roman", serif;
+}
+
+.countryBody {
+  padding: 4px;
+  line-height: 24px;
+}
+
+.nocurs {
+  cursor: default;
+}
+
+.title_special {
+    font-size: 17px;
+    font-weight: bold;
+    font-style: italic;
+    color: #000000;
+    border-bottom: 1px solid #aaa191;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 1px;
+    font-family: "times new roman", serif;
+    line-height: 22px;
+    background-color: #aaa191;
+}
+
+
+/* Cracky is gone https: //cracky-chan.com/ */
