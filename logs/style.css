@@ -3,6 +3,10 @@ a:hover {
   color: #000;
 }
 
+b {
+  font-size: 20px;
+}
+
 .log {
   font-size: 17px;
   white-space: pre-wrap;
