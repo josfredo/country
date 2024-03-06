@@ -26,11 +26,13 @@
 }
 
 .title {
-  font-size: 22px;
+  font-size: 21px;
+  font-family: arial;
 }
 
 .subt {
-  font-size: 19px;
+  font-size: 18px;
+  font-family: arial;
 }
 
 .log {
