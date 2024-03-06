@@ -1,5 +1,6 @@
-a.back:hover {
-  color: #ff0000;
+a:hover {
+  background-color: #aaa191;
+  color: #000;
 }
 
 .log {
