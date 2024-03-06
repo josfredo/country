@@ -14,6 +14,7 @@ a:hover {
 .text {
   font-size: 17px;
   white-space: pre-wrap;
+  margin-top: -27px;
 }
 
 .gold {
