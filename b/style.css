@@ -64,6 +64,14 @@
   text-align: justify;
 }
 
+.story {
+  max-width: 100%;
+  margin-left: 27.1%;
+  margin-right: 27.1%;
+  text-align: justify;
+  white-space: pre-wrap;
+}
+
 .black {
   background-color: #000000;
 }
