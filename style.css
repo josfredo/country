@@ -13,7 +13,7 @@ body {
 }
 
 .sedici {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 header {
@@ -23,11 +23,11 @@ header {
 
 nav ul {
     padding: 0;
-    margin: 0 45px 23px 0;
+    margin: 0 45px 25px 0;
     float: left;
 }
 
-a {
+a:not(.hili) {
     padding: 0px 4px;
 }
 
@@ -39,3 +39,127 @@ a:hover {
     background-color: #dbdbdb;
     color: #000;
 }
+
+* {
+  color: #dbdbdb;
+  text-decoration: none;
+  font-family: "times new roman", sans-serif;
+}
+
+.center {
+  text-align: center;
+}
+
+.hili {
+    padding: 0px 0px 2px;
+}
+
+.hili:hover {
+    background-color: #dbdbdb;
+    color: #000;
+}
+
+.log {
+  font-size: 17px;
+}
+
+.red {
+  color: #ff0000;
+}
+
+/* country */
+
+li {
+  /* Other list item styles */
+  position: relative; /* Necessary for positioning the anchor tag */
+}
+
+li:not(.isly) a {
+  display: block; /* Makes the anchor tags take up the full width */
+}
+
+body {
+  background: #000;
+  max-width: 100%;
+}
+
+li:hover:not(.isly) {
+  background-color: #dbdbdb;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+
+.item {
+  font-size: 17px;
+  color: #dbdbdb; /* Set the link color */
+  text-decoration: none; /* Remove underline */
+  font-family: "times new roman", serif;
+  white-space: nowrap;
+  overflow: hidden;
+}
+/* Define styles for hovered links */
+.item:hover {
+  color: #000;
+  text-decoration: none; /* Add underline on hover */
+}
+
+#mainBody {
+  position: relative;
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.col_admin {
+  max-width: 162px;
+  width: 100%;
+}
+
+.win_red {
+  margin: 3px;
+  margin-bottom: 7px;
+  border: 1px solid #ff0000;
+}
+
+.countryTitle {
+  font-size: 19px;
+  border-bottom: 1px #aaaaaa;
+  color: #fff;
+  padding-left: 3px;
+  text-align: center;
+  font-family: "times new roman", serif;
+}
+
+.countryBody {
+  padding: 4px;
+  line-height: 24px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .item {
+    font-size: 19px;
+  }
+  .col_admin {
+    max-width: 170px;
+  }
+  .countryBody {
+    line-height: 25px;
+  }
+  .center {
+    font-size: 22;
+  }
+
+  .sedici {
+    font-size:18px;
+  }
+}
+
+/* Cracky is gone https: //cracky-chan.com/ */
