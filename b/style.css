@@ -120,7 +120,7 @@ summary::-webkit-details-marker {
 }
 
 @media only screen and (max-width: 600px) {
-  .short_story {
+  .short_story, .story {
     margin-left: 4%;
     margin-right: 4%;
   }
