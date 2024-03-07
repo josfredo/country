@@ -1,4 +1,6 @@
-﻿* {
+﻿/* country */
+
+* {
     margin: 0;
     text-decoration: none;
     list-style-type: none;
@@ -40,6 +42,8 @@ a:hover {
     color: #000;
 }
 
+/* admin */
+
 * {
   color: #dbdbdb;
   text-decoration: none;
@@ -66,8 +70,6 @@ a:hover {
 .red {
   color: #ff0000;
 }
-
-/* country */
 
 li {
   /* Other list item styles */
@@ -124,7 +126,6 @@ li {
 
 .win_red {
   margin: 3px;
-  margin-bottom: 7px;
   border: 1px solid #ff0000;
 }
 
@@ -140,6 +141,10 @@ li {
 .countryBody {
   padding: 4px;
   line-height: 24px;
+}
+
+.space {
+  margin-bottom: 12px;
 }
 
 @media only screen and (max-width: 600px) {
