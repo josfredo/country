@@ -5,13 +5,18 @@
     text-decoration: none;
     list-style-type: none;
     color: #dbdbdb;
-    background-color: #000;
+}
+
+hr {
+  height: 1px;
+  border: none;
 }
 
 body {
     padding: 8px;
     font-family: serif;
     font-size: 17px;
+    background-color: #000;
 }
 
 .sedici {

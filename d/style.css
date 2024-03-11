@@ -9,6 +9,11 @@
   font-family: "times new roman", sans-serif;
 }
 
+hr {
+  height: 1px;
+  border: none;
+}
+
 .marginless {
   margin-top: -49px;
 }

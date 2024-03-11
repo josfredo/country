@@ -2,6 +2,11 @@
   text-decoration: none;
 }
 
+hr {
+  height: 1px;
+  border: none;
+}
+
 a:hover {
   background-color: #aaa191;
   color: #000;
