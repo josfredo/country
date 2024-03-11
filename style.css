@@ -1,10 +1,11 @@
 ﻿/* country */
 
 * {
-    margin: 0;
-    text-decoration: none;
-    list-style-type: none;
-    color: #dbdbdb;
+  font-family: "times new roman", serif;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+  color: #dbdbdb;
 }
 
 hr {
@@ -13,38 +14,34 @@ hr {
 }
 
 body {
-    padding: 8px;
-    font-family: serif;
-    font-size: 17px;
-    background-color: #000;
+  padding: 8px;
+  font-family: serif;
+  font-size: 17px;
+  background-color: #000;
 }
 
 .sedici {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 header {
-    float: left;
-    margin: 5px 30px 0 0;
+  float: left;
+  margin: 5px 30px 0 0;
 }
 
 nav ul {
-    padding: 0;
-    margin: 0 45px 25px 0;
-    float: left;
-}
-
-a:not(.hili) {
-    padding: 0px 4px;
+  padding: 0;
+  margin: 0 45px 25px 0;
+  float: left;
 }
 
 main {
-    clear: both;
+  clear: both;
 }
 
 a:hover {
-    background-color: #dbdbdb;
-    color: #000;
+  background-color: #dbdbdb;
+  color: #000;
 }
 
 /* admin */
@@ -52,7 +49,16 @@ a:hover {
 * {
   color: #dbdbdb;
   text-decoration: none;
-  font-family: "times new roman", sans-serif;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 162px;
+}
+
+td, th {
+  border: 0.5px solid red; /* Add border to table cells */
 }
 
 .center {
@@ -60,7 +66,7 @@ a:hover {
 }
 
 .hili {
-    padding: 0px 0px 2px;
+  padding: 0px 0px 2px;
 }
 
 .hili:hover {
@@ -104,52 +110,9 @@ li {
 
 .item {
   font-size: 17px;
-  color: #dbdbdb; /* Set the link color */
-  text-decoration: none; /* Remove underline */
-  font-family: "times new roman", serif;
   white-space: nowrap;
   overflow: hidden;
-}
-/* Define styles for hovered links */
-.item:hover {
-  color: #000;
-  text-decoration: none; /* Add underline on hover */
-}
-
-#mainBody {
-  position: relative;
-  margin-top: 20px;
-  display: flex;
-  width: 100%;
-  justify-content: center;
-}
-
-.col_admin {
-  max-width: 162px;
-  width: 100%;
-}
-
-.win_red {
-  margin: 3px;
-  border: 1px solid #ff0000;
-}
-
-.countryTitle {
-  font-size: 19px;
-  border-bottom: 1px #aaaaaa;
-  color: #fff;
-  padding-left: 3px;
-  text-align: center;
-  font-family: "times new roman", serif;
-}
-
-.countryBody {
-  padding: 4px;
-  line-height: 24px;
-}
-
-.space {
-  margin-bottom: 12px;
+  padding: 4px 8px;
 }
 
 @media only screen and (max-width: 600px) {
