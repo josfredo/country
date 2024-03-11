@@ -58,7 +58,7 @@ table {
 }
 
 td, th {
-  border: 0.5px solid red; /* Add border to table cells */
+  border: 0.5px solid #ff0000; /* Add border to table cells */
 }
 
 .center {
@@ -120,12 +120,7 @@ li {
   .item {
     font-size: 19px;
   }
-  .col_admin {
-    max-width: 170px;
-  }
-  .countryBody {
-    line-height: 25px;
-  }
+
   .center {
     font-size: 22;
   }
@@ -133,6 +128,14 @@ li {
   .diciotto {
     font-size:18px;
   }
+
+  table {
+    width: 190px;
+  }
+
+  td, th {
+  border: 1px solid #ff0000;
+}
 }
 
 /* Cracky is gone https: //cracky-chan.com/ */
