@@ -1,1 +1,1 @@
-﻿lricountry.com
+copyright laundry room inc. limited
